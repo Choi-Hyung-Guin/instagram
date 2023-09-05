@@ -1,0 +1,21 @@
+<input type="button" value="click"
+    onClick="alert('안녕하세요?')"
+>
+<p onclick="alert('반갑습니다.')">
+    눌러봐요!
+</p>
+
+<input type="button" value="버튼"
+   onclick="
+        for(let i=0; i<5; i++) {
+            console.log(i)
+        }"
+/>
+
+<script>
+    function numbering(n) {
+        for(let i=100; i<=n; i++)
+        console.log(i)
+    }
+</script>
+<input type="button" value="연습" onclick="numbering(105)"/>
